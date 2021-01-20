@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Issues" max_length="40" name="x_569831_iss_track_issues" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Detailed Description" max_length="1024" name="u_detailed_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Issue Priority" max_length="40" name="u_issue_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" value="4"/>
+                <element inactive_on_update="false" label="High" value="3"/>
+                <element inactive_on_update="false" label="Low" value="1"/>
+                <element inactive_on_update="false" label="Medium" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Status" max_length="40" name="u_issue_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Assigned" value="2"/>
+                <element inactive_on_update="false" label="Closed" value="5"/>
+                <element inactive_on_update="false" label="Deferred" value="6"/>
+                <element inactive_on_update="false" label="In-progress" value="3"/>
+                <element inactive_on_update="false" label="Open" value="1"/>
+                <element inactive_on_update="false" label="Resolved" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="u_short_description" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
