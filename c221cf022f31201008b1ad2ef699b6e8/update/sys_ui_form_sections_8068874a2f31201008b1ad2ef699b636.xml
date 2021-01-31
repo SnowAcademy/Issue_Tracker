@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8068874a2f31201008b1ad2ef699b636" sys_domain="global" table="x_569831_iss_track_issues" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 22:53:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c68874a2f31201008b1ad2ef699b651</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_569831_iss_track_issues" name="x_569831_iss_track_issues" sys_domain="global" view="Default view">8068874a2f31201008b1ad2ef699b636</sys_ui_form>
+            <sys_ui_section caption="Quick Info" display_value="Quick Info" name="x_569831_iss_track_issues" sys_domain="global" view="Default view">cf57cb0a2f31201008b1ad2ef699b633</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 22:53:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 22:53:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8868874a2f31201008b1ad2ef699b652</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_569831_iss_track_issues" name="x_569831_iss_track_issues" sys_domain="global" view="Default view">8068874a2f31201008b1ad2ef699b636</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_569831_iss_track_issues" sys_domain="global" view="Default view">0468874a2f31201008b1ad2ef699b634</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 22:53:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 22:53:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8068874a2f31201008b1ad2ef699b656</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_569831_iss_track_issues" name="x_569831_iss_track_issues" sys_domain="global" view="Default view">8068874a2f31201008b1ad2ef699b636</sys_ui_form>
+            <sys_ui_section caption="History" display_value="History" name="x_569831_iss_track_issues" sys_domain="global" view="Default view">0068874a2f31201008b1ad2ef699b635</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 22:53:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_569831_iss_track_issues</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 22:53:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8068874a2f31201008b1ad2ef699b636</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_569831_iss_track_issues</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Issue Tracker" source="x_569831_iss_track">c221cf022f31201008b1ad2ef699b6e8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Issue Tracker">c221cf022f31201008b1ad2ef699b6e8</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8068874a2f31201008b1ad2ef699b636</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 22:53:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

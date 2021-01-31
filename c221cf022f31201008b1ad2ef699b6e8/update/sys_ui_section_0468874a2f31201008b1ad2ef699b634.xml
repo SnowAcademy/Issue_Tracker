@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Details" section_id="0468874a2f31201008b1ad2ef699b634" sys_domain="global" table="x_569831_iss_track_issues" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 22:53:59</sys_created_on>
+            <sys_id>a868874a2f31201008b1ad2ef699b689</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Details" display_value="Details" name="x_569831_iss_track_issues" sys_domain="global" view="Default view">0468874a2f31201008b1ad2ef699b634</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 22:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_detailed_description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 22:53:59</sys_created_on>
+            <sys_id>2c68874a2f31201008b1ad2ef699b689</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Details" display_value="Details" name="x_569831_iss_track_issues" sys_domain="global" view="Default view">0468874a2f31201008b1ad2ef699b634</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 22:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Details</caption>
+            <header>false</header>
+            <name>x_569831_iss_track_issues</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 22:53:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0468874a2f31201008b1ad2ef699b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_569831_iss_track_issues</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Issue Tracker" source="x_569831_iss_track">c221cf022f31201008b1ad2ef699b6e8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Issue Tracker">c221cf022f31201008b1ad2ef699b6e8</sys_scope>
+            <sys_update_name>sys_ui_section_0468874a2f31201008b1ad2ef699b634</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 22:53:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

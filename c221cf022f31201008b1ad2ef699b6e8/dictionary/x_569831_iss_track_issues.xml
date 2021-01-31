@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Issues" max_length="40" name="x_569831_iss_track_issues" type="collection">
+    <element audit="true" label="Issues" max_length="40" name="x_569831_iss_track_issues" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Assigned To" max_length="32" name="u_assign_to" reference="sys_user" type="reference"/>
+        <element label="Screen Capture 1" max_length="40" name="u_attach_1" type="file_attachment"/>
+        <element label="Screen Capture 2" max_length="40" name="u_attach_2" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" label="Detailed Description" max_length="1024" name="u_detailed_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Issue Priority" max_length="40" name="u_issue_priority" type="choice">
             <choice>
@@ -23,6 +26,9 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="u_short_description" type="string"/>
         <index name="index">
+            <element name="u_assign_to"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>
